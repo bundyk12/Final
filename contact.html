@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Island | Denver, Colorado | Contact</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css"></link>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" href="jquery/jquery-ui.theme.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+		<script src="http://parsleyjs.org/dist/parsley.remote.min.js"></script>	
+	</head>
+	<body>
+		<!--Nav-->
+		<nav id="mainNav">
+			<ul class="mainNav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+
+		<!--Header-->
+		<header>
+		</header>
+
+		<!--Testimonials-->
+		<section id="leftBar">
+			<section class="testimonial">
+				<h2>Testimonials</h2>
+				<header>
+					<p>12/10/14</p>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+			</section>
+
+			<section class="testimonial">
+				<header>
+					<p>1/5/15</p>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+			</section>
+
+			<section class="testimonial">
+				<header>
+					<p>2/27/15</p>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+			</section>
+
+			<section class="testimonial">
+				<header>
+					<p>3/8/15</p>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
+			</section>
+		</section>
+
+		<!--Main-->
+		<main id="mainRight">
+			<h1>Contact Us For More Info</h1>
+			<form id="moreInfo" method="post">
+				<p><label for="name">
+	                Name:
+	            </label>
+	            <input type="text" id="name" name="name" placeholder="Your Name" required />
+				
+				<p><label for="gender">Gender:</label>
+				<p>
+				    M: <input type="radio" name="gender" id="genderM" value="Male" required />
+				    F: <input type="radio" name="gender" id="genderF" value="Female" />
+				</p>
+
+  				<p><label for="type">Interested In (Pick One):</label>
+				<p>
+				    <input type="checkbox" name="type" value="indoor" data-parsley-mincheck="1" /> Indoor</p>
+				    <p><input type="checkbox" name="type" value="sand" /> Sand</p>
+				    <p><input type="checkbox" name="type" value="grass" /> Grass</p>
+				    <p><input type="checkbox" name="type" value="SOB" /> SOB Vacations
+				</p>
+
+				<p><label for="day">Weekday You Want to Play:</label>
+				<select id="day" required>
+				    <option value="">Choose..</option>
+				    <option value="Sunday">Sunday</option>
+				    <option value="Monday">Monday</option>
+				    <option value="Tuesday">Tuesday</option>
+				    <option value="Wednesday">Wednesday</option>
+				    <option value="Thursday">Thursday</option>
+				    <option value="Friday">Friday</option>
+				</select>
+
+  				<p><label for="message">Message:</label>
+ 				<textarea id="message" name="message"></textarea>
+
+				
+				<p><label for="date">
+				Date You Want to Start Playing:
+	            </label>
+	            <input id="date" type="text" name="date" placeholder="Date" required />
+	            
+	            <p><label for="email">
+	                E-mail:
+	            </label>
+	            <input id="email" type="email" name="email" placeholder="Your E-mail" data-parsley-trigger="change" required />
+	            
+	            <p><input id="submit" name="submit" type="submit" value="Submit">
+			</form>
+		</main>
+
+		<footer>
+		</footer>
+
+		<script type="text/javascript" src='js/scripts.js'></script>
+		<script type="text/javascript" src='js/ip.js'></script>
+		<script async type="text/javascript" src='js/post.js'></script>
+	</body>
+</html>
